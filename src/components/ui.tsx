@@ -12,14 +12,14 @@ export const btn = {
 
 export function Logo({ href = "/" }: { href?: string }) {
   return (
-    <Link href={href} className="inline-flex items-center gap-2 min-h-11" aria-label="duet home">
+    <Link href={href} className="inline-flex items-center gap-2 min-h-11" aria-label="wetube home">
       <span className="size-7 rounded-lg bg-accent grid place-items-center">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0f0f13" strokeWidth="2.4" aria-hidden="true">
           <circle cx="8" cy="12" r="5" />
           <circle cx="16" cy="12" r="5" />
         </svg>
       </span>
-      <span className="font-display text-xl">duet</span>
+      <span className="font-display text-xl">wetube</span>
     </Link>
   );
 }

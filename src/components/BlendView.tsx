@@ -466,7 +466,7 @@ function InviteMore({ blendId }: { blendId: string }) {
     const url = `${window.location.origin}/b/${blendId}`;
     if (navigator.share) {
       try {
-        await navigator.share({ title: "duet", text: "Join our music blend:", url });
+        await navigator.share({ title: "wetube", text: "Join our music blend:", url });
       } catch {}
       return;
     }

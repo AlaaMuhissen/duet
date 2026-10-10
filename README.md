@@ -1,4 +1,4 @@
-# duet
+# wetube
 
 Compare YouTube watch history with friends and play every song you have in common.
 

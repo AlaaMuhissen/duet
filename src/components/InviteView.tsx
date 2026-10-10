@@ -32,7 +32,7 @@ export function InviteView({ blendId, url, me, songCount }: { blendId: string; u
   async function share() {
     if (navigator.share) {
       try {
-        await navigator.share({ title: "duet", text: shareText, url });
+        await navigator.share({ title: "wetube", text: shareText, url });
         return;
       } catch {
         return; // user cancelled

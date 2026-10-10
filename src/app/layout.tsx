@@ -7,7 +7,7 @@ const dmSans = localFont({ src: "./fonts/dm-sans.woff2", variable: "--font-dm-sa
 const bricolage = localFont({ src: "./fonts/bricolage.woff2", variable: "--font-bricolage", weight: "200 800", display: "swap" });
 
 export const metadata: Metadata = {
-  title: { default: "duet · the songs you both actually play", template: "%s · duet" },
+  title: { default: "wetube · the songs you both actually play", template: "%s · wetube" },
   description: "Compare YouTube watch history with friends and play every song you have in common.",
 };
 
